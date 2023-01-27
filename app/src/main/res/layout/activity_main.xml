@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/starwars"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rotationX="40"
+        android:text="Son tiempos de guerra civil.\n  Naves rebeldes han atacado \n  desde una base secreta y \n  han obtenido su primera\n  victoria contra el malvado\n  Imperio Galáctico.\n  \n \n Durante la batalla, espías\n rebeldes lograron robar los \n planos secretos del arma \n  más extrema del Imperio,\n la ESTRELLA DE LA \n  MUERTE, una estación \n  espacial blindada con \n  suficiente potencia para \n  destruir un planeta entero.\n  \n \n Perseguida por los \n  siniestros agentes del \n  Imperio, la Princesa Leia \n  se dirige velozmente a casa \n  en su nave espacial, \n  mientras resguarda los \n  planos que pueden salvar \n  a su pueblo y restaurar la \n  libertad en la galaxia…\n "
+        android:textAlignment="center"
+        android:textColor="#FFEB3B"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>
